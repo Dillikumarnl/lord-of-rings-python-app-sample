@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lord of Rings Sources</title>
+    <style rel="stylesheet" href=""></style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+
+</head>
+<body>
+    <div align="center">
+        <h1><strong>Lord of Rings</strong></h1>
+
+        <div class="d-grid flex-column-row mb-5" >
+        <a href="{{ url_for('get_all_books')}}" class="btn btn-lg bd-btn-lg btn-outline-secondary"> Get All Books</a> </div>
+        <div class="d-grid flex-column-row mb-5">
+        <a href="{{ url_for('get_all_movies')}}" class="btn btn-lg bd-btn-lg btn-outline-secondary"> Get All Movies</a> </div>
+        <div class="d-grid flex-column-row mb-5">
+        <a href="{{ url_for('get_all_characters')}}" class="btn btn-lg bd-btn-lg btn-outline-secondary"> Get All Characters</a> </div>
+        <div class="d-grid flex-column-row mb-5">
+        <a href="{{ url_for('get_all_quotes')}}" class="btn btn-lg bd-btn-lg btn-outline-secondary"> Get All Quotes</a> </div>
+        <div class="d-grid flex-column-row mb-5">
+        <a href="{{ url_for('get_all_chapters')}}" class="btn btn-lg bd-btn-lg btn-outline-secondary"> Get All Chapters</a> </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>

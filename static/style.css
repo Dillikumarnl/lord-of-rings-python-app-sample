@@ -1,0 +1,19 @@
+body{
+    background-color: #C6EBDF;
+    foreground-color:
+
+}
+h1 {
+    color: #08055A; /* Sets the text color to blue */
+}
+
+p {
+    color: #0A067D; /* Sets the text color to a specific hex code */
+}
+
+.roboto-thin { font-family: 'Roboto', sans-serif; font-weight: 100; }
+.roboto-light { font-family: 'Roboto', sans-serif; font-weight: 300; }
+.roboto-regular { font-family: 'Roboto', sans-serif; font-weight: 400; }
+.roboto-medium { font-family: 'Roboto', sans-serif; font-weight: 500; }
+.roboto-bold { font-family: 'Roboto', sans-serif; font-weight: 700; }
+.roboto-black { font-family: 'Roboto', sans-serif; font-weight: 900; }
